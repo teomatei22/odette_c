@@ -232,11 +232,11 @@ void test_rk45_integration() {
     auto tdms = interpret::parse_tdm_w(
                     "data/Jason/20240318_16002A_A*", 130, 5);
     std::cout << tdms.observations.size() << std::endl;
-    auto radec = interpret::RADec(tdms.observations); // radec = RADec(obs)
+    auto radec = interpret::RADec(tdms.observations);
 
-    auto r_init = radec.get_position(); // r_init = radec.get_position()
-    auto v_init = radec.get_velocity(); // v_init = radec.get_velocity()
-    auto jd_init = radec.m_epoch; // jd_init = radec.m_epoch
+    auto r_init = radec.get_position();
+    auto v_init = radec.get_velocity();
+    auto jd_init = radec.m_epoch;
     std::vector<double> epochs;
     epochs.push_back(jd_init);
     for (int i = 0; i < 1000; i++) {
@@ -248,6 +248,10 @@ void test_rk45_integration() {
     for (int i = 0; i < p.ephem.epochs.size(); i++) {
         std::cout << p.ephem.epochs[i] << ' ' << p.ephem.positions[i].transpose()
         << " | " << p.ephem.velocities[i].transpose() << std::endl;
+
+        p.ephem.positions[i] = utils::to_eci(p.ephem.positions[i], p.ephem.epochs[i]);
+        p.ephem.velocities[i] = utils::to_eci(p.ephem.velocities[i], p.ephem.epochs[i]);
+
     }
 
     std::vector<Eigen::Vector3d> positions = p.ephem.positions;
