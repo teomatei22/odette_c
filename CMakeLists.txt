@@ -38,7 +38,7 @@ add_executable(gauss_tle_tests gauss_tle_test.cpp
 )
 
 
-add_executable(orbit_determination main.cpp
+add_executable(odette main.cpp
         src/TLE.cpp
         src/SGP4.cpp
         include/interpret.h
