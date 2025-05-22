@@ -1,0 +1,1091 @@
+TLE Altitude: 6882.84 at delta: 10 delta_error: 5 for 3 observations, speed: 20.9686
+TDM Altitude difference: 5543.62 speed difference: 13.7797
+ORBITAL ELEMENTS: [a: -1050.15, a_tle: 7721.6]
+ [e: 9.56575, e_tle: 0.00057139]
+ [i: 134.168, i_tle: 66.0551]
+ [raan: 23.3708, raan_tle: 38.7934]
+ [argp: 253.715, argp_tle: 6.7965]
+ [nu: 310.144, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 10 delta_error: 10 for 7 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 10 delta_error: 15 for 7 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 10 delta_error: 20 for 7 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 10 delta_error: 25 for 7 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 10 delta_error: 30 for 7 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 6882.84 at delta: 20 delta_error: 15 for 3 observations, speed: 20.9686
+TDM Altitude difference: 5543.62 speed difference: 13.7797
+ORBITAL ELEMENTS: [a: -1050.15, a_tle: 7721.6]
+ [e: 9.56575, e_tle: 0.00057139]
+ [i: 134.168, i_tle: 66.0551]
+ [raan: 23.3708, raan_tle: 38.7934]
+ [argp: 253.715, argp_tle: 6.7965]
+ [nu: 310.144, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 20 delta_error: 20 for 7 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 20 delta_error: 25 for 7 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 20 delta_error: 30 for 24 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1309.54 at delta: 30 delta_error: 20 for 7 observations, speed: 7.36627
+TDM Altitude difference: 29.677 speed difference: 0.177384
+ORBITAL ELEMENTS: [a: 8062.56, a_tle: 7721.6]
+ [e: 0.0555086, e_tle: 0.00057139]
+ [i: 65.8379, i_tle: 66.0551]
+ [raan: 36.8183, raan_tle: 38.7934]
+ [argp: 121.771, argp_tle: 6.7965]
+ [nu: 325.147, nu_tle: 353.204]
+ [M: 328.661, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 6882.84 at delta: 30 delta_error: 25 for 21 observations, speed: 20.9686
+TDM Altitude difference: 5543.62 speed difference: 13.7797
+ORBITAL ELEMENTS: [a: -1050.15, a_tle: 7721.6]
+ [e: 9.56575, e_tle: 0.00057139]
+ [i: 134.168, i_tle: 66.0551]
+ [raan: 23.3708, raan_tle: 38.7934]
+ [argp: 253.715, argp_tle: 6.7965]
+ [nu: 310.144, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 435.698 at delta: 30 delta_error: 30 for 55 observations, speed: 16.2362
+TDM Altitude difference: 903.516 speed difference: 9.04731
+ORBITAL ELEMENTS: [a: -2718.7, a_tle: 7721.6]
+ [e: 3.37807, e_tle: 0.00057139]
+ [i: 65.2082, i_tle: 66.0551]
+ [raan: 7.60902, raan_tle: 38.7934]
+ [argp: 131.866, argp_tle: 6.7965]
+ [nu: 339.023, nu_tle: 353.204]
+ [M: nan, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 40 delta_error: 25 for 10 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1309.54 at delta: 40 delta_error: 30 for 14 observations, speed: 7.36627
+TDM Altitude difference: 29.677 speed difference: 0.177384
+ORBITAL ELEMENTS: [a: 8062.56, a_tle: 7721.6]
+ [e: 0.0555086, e_tle: 0.00057139]
+ [i: 65.8379, i_tle: 66.0551]
+ [raan: 36.8183, raan_tle: 38.7934]
+ [argp: 121.771, argp_tle: 6.7965]
+ [nu: 325.147, nu_tle: 353.204]
+ [M: 328.661, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 50 delta_error: 15 for 10 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 50 delta_error: 20 for 10 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 50 delta_error: 25 for 10 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 50 delta_error: 30 for 10 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 60 delta_error: 5 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 60 delta_error: 10 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 60 delta_error: 15 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 60 delta_error: 20 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 60 delta_error: 25 for 10 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 60 delta_error: 30 for 10 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 70 delta_error: 10 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 70 delta_error: 15 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 70 delta_error: 20 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 70 delta_error: 25 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 70 delta_error: 30 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 80 delta_error: 20 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 80 delta_error: 25 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1320.12 at delta: 80 delta_error: 30 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1337.81 at delta: 90 delta_error: 20 for 3 observations, speed: 7.19792
+TDM Altitude difference: 1.40365 speed difference: 0.00903569
+ORBITAL ELEMENTS: [a: 7738.27, a_tle: 7721.6]
+ [e: 0.00290173, e_tle: 0.00057139]
+ [i: 66.1181, i_tle: 66.0551]
+ [raan: 38.6516, raan_tle: 38.7934]
+ [argp: 89.1126, argp_tle: 6.7965]
+ [nu: 0.0264494, nu_tle: 353.204]
+ [M: 0.0262962, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1333.64 at delta: 90 delta_error: 25 for 7 observations, speed: 7.17312
+TDM Altitude difference: 5.5702 speed difference: 0.0157724
+ORBITAL ELEMENTS: [a: 7676.81, a_tle: 7721.6]
+ [e: 0.00500312, e_tle: 0.00057139]
+ [i: 66.0915, i_tle: 66.0551]
+ [raan: 38.7356, raan_tle: 38.7934]
+ [argp: 293.694, argp_tle: 6.7965]
+ [nu: 155.201, nu_tle: 353.204]
+ [M: 154.96, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1320.12 at delta: 90 delta_error: 30 for 9 observations, speed: 7.11742
+TDM Altitude difference: 19.0923 speed difference: 0.0714645
+ORBITAL ELEMENTS: [a: 7534.96, a_tle: 7721.6]
+ [e: 0.0219332, e_tle: 0.00057139]
+ [i: 66.0022, i_tle: 66.0551]
+ [raan: 38.729, raan_tle: 38.7934]
+ [argp: 277.598, argp_tle: 6.7965]
+ [nu: 171.037, nu_tle: 353.204]
+ [M: 170.638, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1334.66 at delta: 100 delta_error: 25 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1337.81 at delta: 100 delta_error: 30 for 6 observations, speed: 7.19792
+TDM Altitude difference: 1.40365 speed difference: 0.00903569
+ORBITAL ELEMENTS: [a: 7738.27, a_tle: 7721.6]
+ [e: 0.00290173, e_tle: 0.00057139]
+ [i: 66.1181, i_tle: 66.0551]
+ [raan: 38.6516, raan_tle: 38.7934]
+ [argp: 89.1126, argp_tle: 6.7965]
+ [nu: 0.0264494, nu_tle: 353.204]
+ [M: 0.0262962, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 110 delta_error: 15 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 110 delta_error: 20 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 110 delta_error: 25 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 110 delta_error: 30 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 120 delta_error: 5 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 120 delta_error: 10 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 120 delta_error: 15 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 120 delta_error: 20 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 120 delta_error: 25 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 120 delta_error: 30 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.76 at delta: 130 delta_error: 5 for 3 observations, speed: 7.20244
+TDM Altitude difference: 4.4549 speed difference: 0.0135516
+ORBITAL ELEMENTS: [a: 7741.9, a_tle: 7721.6]
+ [e: 0.0037715, e_tle: 0.00057139]
+ [i: 66.0987, i_tle: 66.0551]
+ [raan: 38.6144, raan_tle: 38.7934]
+ [argp: 95.777, argp_tle: 6.7965]
+ [nu: 356.244, nu_tle: 353.204]
+ [M: 356.272, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 130 delta_error: 10 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 130 delta_error: 15 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 130 delta_error: 20 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 130 delta_error: 25 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 130 delta_error: 30 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.76 at delta: 140 delta_error: 15 for 3 observations, speed: 7.20244
+TDM Altitude difference: 4.4549 speed difference: 0.0135516
+ORBITAL ELEMENTS: [a: 7741.9, a_tle: 7721.6]
+ [e: 0.0037715, e_tle: 0.00057139]
+ [i: 66.0987, i_tle: 66.0551]
+ [raan: 38.6144, raan_tle: 38.7934]
+ [argp: 95.777, argp_tle: 6.7965]
+ [nu: 356.244, nu_tle: 353.204]
+ [M: 356.272, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 140 delta_error: 20 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 140 delta_error: 25 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 140 delta_error: 30 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1330.65 at delta: 150 delta_error: 20 for 3 observations, speed: 7.18265
+TDM Altitude difference: 8.56068 speed difference: 0.00623946
+ORBITAL ELEMENTS: [a: 7691.14, a_tle: 7721.6]
+ [e: 0.00289874, e_tle: 0.00057139]
+ [i: 66.0659, i_tle: 66.0551]
+ [raan: 38.704, raan_tle: 38.7934]
+ [argp: 310.526, argp_tle: 6.7965]
+ [nu: 141.862, nu_tle: 353.204]
+ [M: 141.656, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.76 at delta: 150 delta_error: 25 for 4 observations, speed: 7.20244
+TDM Altitude difference: 4.4549 speed difference: 0.0135516
+ORBITAL ELEMENTS: [a: 7741.9, a_tle: 7721.6]
+ [e: 0.0037715, e_tle: 0.00057139]
+ [i: 66.0987, i_tle: 66.0551]
+ [raan: 38.6144, raan_tle: 38.7934]
+ [argp: 95.777, argp_tle: 6.7965]
+ [nu: 356.244, nu_tle: 353.204]
+ [M: 356.272, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1334.66 at delta: 150 delta_error: 30 for 5 observations, speed: 7.19775
+TDM Altitude difference: 4.55545 speed difference: 0.00886408
+ORBITAL ELEMENTS: [a: 7731.56, a_tle: 7721.6]
+ [e: 0.00244901, e_tle: 0.00057139]
+ [i: 66.0974, i_tle: 66.0551]
+ [raan: 38.6192, raan_tle: 38.7934]
+ [argp: 95.3497, argp_tle: 6.7965]
+ [nu: 356.422, nu_tle: 353.204]
+ [M: 356.439, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1327.02 at delta: 160 delta_error: 25 for 4 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1330.65 at delta: 160 delta_error: 30 for 4 observations, speed: 7.18265
+TDM Altitude difference: 8.56068 speed difference: 0.00623946
+ORBITAL ELEMENTS: [a: 7691.14, a_tle: 7721.6]
+ [e: 0.00289874, e_tle: 0.00057139]
+ [i: 66.0659, i_tle: 66.0551]
+ [raan: 38.704, raan_tle: 38.7934]
+ [argp: 310.526, argp_tle: 6.7965]
+ [nu: 141.862, nu_tle: 353.204]
+ [M: 141.656, M_tle: 353.211]
+ =============================================================================[SUCCESS]
+TLE Altitude: 1327.02 at delta: 170 delta_error: 15 for 4 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 170 delta_error: 20 for 4 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 170 delta_error: 25 for 4 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 170 delta_error: 30 for 4 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 180 delta_error: 5 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 180 delta_error: 10 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 180 delta_error: 15 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 180 delta_error: 20 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 180 delta_error: 25 for 4 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 180 delta_error: 30 for 4 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1326.72 at delta: 190 delta_error: 10 for 3 observations, speed: 7.18421
+TDM Altitude difference: 12.497 speed difference: 0.0046817
+ORBITAL ELEMENTS: [a: 7686.63, a_tle: 7721.6]
+ [e: 0.00276095, e_tle: 0.00057139]
+ [i: 66.0363, i_tle: 66.0551]
+ [raan: 38.6605, raan_tle: 38.7934]
+ [argp: 306.46, argp_tle: 6.7965]
+ [nu: 148.563, nu_tle: 353.204]
+ [M: 148.398, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 190 delta_error: 15 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 190 delta_error: 20 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 190 delta_error: 25 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 190 delta_error: 30 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1326.72 at delta: 200 delta_error: 20 for 3 observations, speed: 7.18421
+TDM Altitude difference: 12.497 speed difference: 0.0046817
+ORBITAL ELEMENTS: [a: 7686.63, a_tle: 7721.6]
+ [e: 0.00276095, e_tle: 0.00057139]
+ [i: 66.0363, i_tle: 66.0551]
+ [raan: 38.6605, raan_tle: 38.7934]
+ [argp: 306.46, argp_tle: 6.7965]
+ [nu: 148.563, nu_tle: 353.204]
+ [M: 148.398, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 200 delta_error: 25 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1327.02 at delta: 200 delta_error: 30 for 3 observations, speed: 7.18501
+TDM Altitude difference: 12.1947 speed difference: 0.00387833
+ORBITAL ELEMENTS: [a: 7688.94, a_tle: 7721.6]
+ [e: 0.00252215, e_tle: 0.00057139]
+ [i: 66.0386, i_tle: 66.0551]
+ [raan: 38.6596, raan_tle: 38.7934]
+ [argp: 308.927, argp_tle: 6.7965]
+ [nu: 146.095, nu_tle: 353.204]
+ [M: 145.933, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1322.49 at delta: 210 delta_error: 25 for 3 observations, speed: 7.18324
+TDM Altitude difference: 16.7194 speed difference: 0.00564899
+ORBITAL ELEMENTS: [a: 7676.17, a_tle: 7721.6]
+ [e: 0.00360255, e_tle: 0.00057139]
+ [i: 66.006, i_tle: 66.0551]
+ [raan: 38.6502, raan_tle: 38.7934]
+ [argp: 303.605, argp_tle: 6.7965]
+ [nu: 151.693, nu_tle: 353.204]
+ [M: 151.496, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1326.72 at delta: 210 delta_error: 30 for 3 observations, speed: 7.18421
+TDM Altitude difference: 12.497 speed difference: 0.0046817
+ORBITAL ELEMENTS: [a: 7686.63, a_tle: 7721.6]
+ [e: 0.00276095, e_tle: 0.00057139]
+ [i: 66.0363, i_tle: 66.0551]
+ [raan: 38.6605, raan_tle: 38.7934]
+ [argp: 306.46, argp_tle: 6.7965]
+ [nu: 148.563, nu_tle: 353.204]
+ [M: 148.398, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 220 delta_error: 25 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 220 delta_error: 30 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 230 delta_error: 15 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 230 delta_error: 20 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 230 delta_error: 25 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 230 delta_error: 30 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 240 delta_error: 5 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 240 delta_error: 10 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 240 delta_error: 15 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 240 delta_error: 20 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 240 delta_error: 25 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 240 delta_error: 30 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1317.9 at delta: 250 delta_error: 10 for 3 observations, speed: 7.18185
+TDM Altitude difference: 21.3119 speed difference: 0.00703527
+ORBITAL ELEMENTS: [a: 7664.11, a_tle: 7721.6]
+ [e: 0.00451464, e_tle: 0.00057139]
+ [i: 65.9686, i_tle: 66.0551]
+ [raan: 38.6345, raan_tle: 38.7934]
+ [argp: 301.424, argp_tle: 6.7965]
+ [nu: 156.845, nu_tle: 353.204]
+ [M: 156.641, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 250 delta_error: 15 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 250 delta_error: 20 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 250 delta_error: 25 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 250 delta_error: 30 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1315.47 at delta: 260 delta_error: 10 for 3 observations, speed: 7.17863
+TDM Altitude difference: 23.7396 speed difference: 0.0102574
+ORBITAL ELEMENTS: [a: 7652.5, a_tle: 7721.6]
+ [e: 0.00581785, e_tle: 0.00057139]
+ [i: 65.9466, i_tle: 66.0551]
+ [raan: 38.6522, raan_tle: 38.7934]
+ [argp: 301.646, argp_tle: 6.7965]
+ [nu: 157.122, nu_tle: 353.204]
+ [M: 156.862, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1315.4 at delta: 260 delta_error: 15 for 3 observations, speed: 7.17987
+TDM Altitude difference: 23.8147 speed difference: 0.00901588
+ORBITAL ELEMENTS: [a: 7654.97, a_tle: 7721.6]
+ [e: 0.00539169, e_tle: 0.00057139]
+ [i: 65.9492, i_tle: 66.0551]
+ [raan: 38.6331, raan_tle: 38.7934]
+ [argp: 299.795, argp_tle: 6.7965]
+ [nu: 158.733, nu_tle: 353.204]
+ [M: 158.508, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1317.9 at delta: 260 delta_error: 20 for 3 observations, speed: 7.18185
+TDM Altitude difference: 21.3119 speed difference: 0.00703527
+ORBITAL ELEMENTS: [a: 7664.11, a_tle: 7721.6]
+ [e: 0.00451464, e_tle: 0.00057139]
+ [i: 65.9686, i_tle: 66.0551]
+ [raan: 38.6345, raan_tle: 38.7934]
+ [argp: 301.424, argp_tle: 6.7965]
+ [nu: 156.845, nu_tle: 353.204]
+ [M: 156.641, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 260 delta_error: 25 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1318.06 at delta: 260 delta_error: 30 for 3 observations, speed: 7.18159
+TDM Altitude difference: 21.1543 speed difference: 0.00729432
+ORBITAL ELEMENTS: [a: 7663.88, a_tle: 7721.6]
+ [e: 0.0045606, e_tle: 0.00057139]
+ [i: 65.9697, i_tle: 66.0551]
+ [raan: 38.6357, raan_tle: 38.7934]
+ [argp: 301.128, argp_tle: 6.7965]
+ [nu: 157.14, nu_tle: 353.204]
+ [M: 156.937, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1315.47 at delta: 270 delta_error: 20 for 3 observations, speed: 7.17863
+TDM Altitude difference: 23.7396 speed difference: 0.0102574
+ORBITAL ELEMENTS: [a: 7652.5, a_tle: 7721.6]
+ [e: 0.00581785, e_tle: 0.00057139]
+ [i: 65.9466, i_tle: 66.0551]
+ [raan: 38.6522, raan_tle: 38.7934]
+ [argp: 301.646, argp_tle: 6.7965]
+ [nu: 157.122, nu_tle: 353.204]
+ [M: 156.862, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1315.4 at delta: 270 delta_error: 25 for 3 observations, speed: 7.17987
+TDM Altitude difference: 23.8147 speed difference: 0.00901588
+ORBITAL ELEMENTS: [a: 7654.97, a_tle: 7721.6]
+ [e: 0.00539169, e_tle: 0.00057139]
+ [i: 65.9492, i_tle: 66.0551]
+ [raan: 38.6331, raan_tle: 38.7934]
+ [argp: 299.795, argp_tle: 6.7965]
+ [nu: 158.733, nu_tle: 353.204]
+ [M: 158.508, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1317.9 at delta: 270 delta_error: 30 for 3 observations, speed: 7.18185
+TDM Altitude difference: 21.3119 speed difference: 0.00703527
+ORBITAL ELEMENTS: [a: 7664.11, a_tle: 7721.6]
+ [e: 0.00451464, e_tle: 0.00057139]
+ [i: 65.9686, i_tle: 66.0551]
+ [raan: 38.6345, raan_tle: 38.7934]
+ [argp: 301.424, argp_tle: 6.7965]
+ [nu: 156.845, nu_tle: 353.204]
+ [M: 156.641, M_tle: 353.211]
+ =============================================================================[FAILURE]
+TLE Altitude: 1315.47 at delta: 280 delta_error: 30 for 3 observations, speed: 7.17863
+TDM Altitude difference: 23.7396 speed difference: 0.0102574
+ORBITAL ELEMENTS: [a: 7652.5, a_tle: 7721.6]
+ [e: 0.00581785, e_tle: 0.00057139]
+ [i: 65.9466, i_tle: 66.0551]
+ [raan: 38.6522, raan_tle: 38.7934]
+ [argp: 301.646, argp_tle: 6.7965]
+ [nu: 157.122, nu_tle: 353.204]
+ [M: 156.862, M_tle: 353.211]
+ =============================================================================[FAILURE]
+Executed 180 operations in 847 ms
