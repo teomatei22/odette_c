@@ -28,11 +28,11 @@ pip install wheel
 ## Build Instructions
 
 ### Step 1: Navigate to the Project Directory
-Open Command Prompt and navigate to whichever folder contains `setup.py`:
+ODETTE is the project folder that contains the cpp_core folder and the Python_interface folder. Open Command Prompt and navigate to whichever folder contains `setup.py`:
 
 ```bash
 # Navigate to Python_interface folder:
-cd path/to/ODETTE/Python_interface
+cd path/to/ODETTE/Python_interface/Bindings_Python-interface-code
 ```
 
 ### Step 2: Build the Extension Module
@@ -87,7 +87,7 @@ pip install .
 pip install --upgrade setuptools
 ```
 
-### 3. CMake Issues (if your setup.py uses CMake)
+### 3. CMake Issues (setup.py uses CMake)
 **Solution**: 
 - Install CMake from [cmake.org](https://cmake.org/download/)
 - Select "Add CMake to PATH" during installation
