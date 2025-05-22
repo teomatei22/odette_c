@@ -31,10 +31,7 @@ pip install wheel
 Open Command Prompt and navigate to whichever folder contains `setup.py`:
 
 ```bash
-# Either navigate to cpp_core folder:
-cd path/to/ODETTE/cpp_core
-
-# Or navigate to Python_interface folder:
+# Navigate to Python_interface folder:
 cd path/to/ODETTE/Python_interface
 ```
 
