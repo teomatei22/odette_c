@@ -1,7 +1,0 @@
-/Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings/build/temp.macosx-11.0-arm64-cpython-38/CMakeFiles/satellite_core.dir
-/Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings/build/temp.macosx-11.0-arm64-cpython-38/CMakeFiles/edit_cache.dir
-/Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings/build/temp.macosx-11.0-arm64-cpython-38/CMakeFiles/rebuild_cache.dir
-/Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings/build/temp.macosx-11.0-arm64-cpython-38/CMakeFiles/list_install_components.dir
-/Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings/build/temp.macosx-11.0-arm64-cpython-38/CMakeFiles/install.dir
-/Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings/build/temp.macosx-11.0-arm64-cpython-38/CMakeFiles/install/local.dir
-/Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings/build/temp.macosx-11.0-arm64-cpython-38/CMakeFiles/install/strip.dir
