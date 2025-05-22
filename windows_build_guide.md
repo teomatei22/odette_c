@@ -58,7 +58,7 @@ After successful compilation, you should see a new file in the directory such as
 Test that the module loads correctly:
 
 ```bash
-python -c "import satellite_core; print('Module loaded successfully!')"
+python -c "from odette import satellite_core; print('Module loaded successfully!')"
 ```
 
 ## Alternative Installation Methods
