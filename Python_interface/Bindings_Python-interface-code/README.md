@@ -17,7 +17,7 @@ Python bindings for the C++ core library of the ODETTE project, providing satell
 
 - CMake (>= 3.12)
 - C++ compiler with C++17 support
-- Python (>= 3.6)
+- Python (>= 3.8)
 - Eigen3
 - pybind11
 
