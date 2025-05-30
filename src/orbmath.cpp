@@ -4,6 +4,9 @@
 #include <cmath>
 #include <vector>
 #include "orbmath.h"
+
+#include "logging.h"
+
 namespace orbmath {
 
 
@@ -56,6 +59,8 @@ namespace orbmath {
 
 
     OrbitalElements compute_orbital_elements(const Eigen::Vector3d& r, const Eigen::Vector3d& v) {
+        barlog::info("Computing orbital elements.");
+
         constexpr double undefined = std::numeric_limits<double>::quiet_NaN();
         const double small = 1e-10;
 

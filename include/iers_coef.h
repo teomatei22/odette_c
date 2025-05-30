@@ -61,7 +61,7 @@ namespace utils {
             std::ifstream csv_file("constants.csv"); // Open the CSV file containing constants.
             if (!csv_file) {
                 // Log an error if the CSV file cannot be opened.
-                barlog::write << "Error opening constants.csv" << std::endl;
+                barlog::error( "Error opening constants.csv" );
                 loaded = true; // Mark as loaded to avoid repeated attempts.
                 return iers_data;
             }
@@ -219,7 +219,7 @@ namespace utils {
         auto &iers_data = get_iers_data();
         // Check if any data was loaded; if not, log an error and return default values.
         if (iers_data.empty()) {
-            barlog::write << "ERROR: No IERS data loaded.\n";
+            barlog::error( "ERROR: No IERS data loaded.\n");
             return {0, 0, 0, 0, 0, 0, 0};
         }
 
@@ -228,9 +228,8 @@ namespace utils {
 
         // (2) Log the tokenized CSV line from the chosen record for debugging purposes.
         for (auto &res : rec.csv_line) {
-            barlog::write << res << ' ';
+            barlog::info(res);
         }
-        barlog::write << std::endl;
 
         // (3) Extract orientation parameters from specific columns in the CSV:
         //      - Column 5: xp (polar motion component)
@@ -253,15 +252,6 @@ namespace utils {
         double ddpsi = -85.0;  // Nutation in longitude correction.
         double ddeps = 10.0;   // Nutation in obliquity correction.
 
-        // Log the final set of retrieved and hard-coded parameters.
-        barlog::write << "dUT: "   << dUT1
-                      << " dAT: "  << dAT
-                      << " xp: "   << xp
-                      << " yp: "   << yp
-                      << " lod: "  << lod
-                      << " ddpsi: "<< ddpsi
-                      << " ddeps: "<< ddeps
-                      << std::endl;
         return {dUT1, dAT, xp, yp, lod, ddpsi, ddeps}; // Return the parameters as a tuple.
     }
 

@@ -89,6 +89,8 @@ void write_csv(const std::string& path, const std::vector<double>& epochs,
 void write_json(const std::string& path, const std::vector<double>& epochs,
                 const std::vector<Eigen::Vector3d>& positions,
                 const std::vector<Eigen::Vector3d>& velocities) {
+
+
     json j = json::array();
     for (size_t i = 0; i < epochs.size(); ++i) {
         j.push_back({
@@ -102,6 +104,8 @@ void write_json(const std::string& path, const std::vector<double>& epochs,
 }
 
 int main(int argc, char* argv[]) {
+    barlog::initialize_log();
+
     using namespace popl;//command line argument parsing library
     OptionParser op("Odette CLI Options");
     auto help = op.add<Switch>("h", "help", "Show help message");

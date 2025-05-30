@@ -2,6 +2,7 @@
 #include <iostream>
 #include <Dense>
 #include <cmath>
+#include <format>
 #include <stdexcept>
 #include <vector>
 #include <limits>
@@ -24,10 +25,12 @@ namespace interpret {
         using namespace orbmath;
 
         //setting epoch
-
+        //barlog::info("Executing gauss_solve.");
         // Ensure we have at least 3 observations
-        if (observations.size() < 3)
+        if (observations.size() < 3) {
+            //barlog::error("At least three observations are required.");
             throw std::invalid_argument("At least 3 observations expected");
+        }
         Observation &obs1 = observations[0];
         Observation &obs2 = observations[1];
         Observation &obs3 = observations[2];
@@ -98,6 +101,7 @@ namespace interpret {
         }
 
         if (r2_mag < 0) {
+            //barlog::error(std::format("r2_mag was {}", r2_mag));
             throw std::runtime_error("No valid positive real root for r2 magnitude.");
         }
 
@@ -138,6 +142,9 @@ namespace interpret {
         sol.epoch = observations[1].epoch;
         sol.r = r2;
         sol.v = v2;
+
+        //barlog::info("Finished gauss_solve.");
+
         return sol;
 
     }
@@ -162,6 +169,7 @@ namespace interpret {
     }
 
     void RADec::compute_orbit() {
+        //barlog::info("Computing orbit.");
         m_epoch = m_observations[1].epoch;
         StateVectors sol = gauss_solve(m_observations);
 

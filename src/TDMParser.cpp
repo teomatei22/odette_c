@@ -8,14 +8,19 @@
 #include "orbmath.h"
 #include "SGP4.h"
 #include <filesystem>
+#include <format>
 #include <string>
 #include <vector>
 #include <iostream>
 #include <regex>
 
+#include "logging.h"
+
 
 namespace interpret {
     static double parse_time_string(const std::string &timeStr) {
+        barlog::info(std::format("Parsed time string: {}", timeStr));
+
         std::string date, time;
         std::istringstream iss(timeStr);
 
@@ -40,9 +45,13 @@ namespace interpret {
 
 
     TDMData parse_tdm(const std::string &filename) {
+        barlog::info(std::format("Parsing TDM file at path: {}", filename));
+
         TDMData data;
         std::ifstream infile(filename);
         if (!infile) {
+
+            barlog::error(std::format("Failed to open file {}", filename));
             throw std::runtime_error("Could not open file: " + filename);
         }
 
@@ -166,6 +175,8 @@ namespace interpret {
         }
 
         infile.close();
+
+        barlog::info(std::format("Parsed TDM file at path: {}", filename));
         return data;
     }
 
@@ -173,6 +184,12 @@ namespace interpret {
                        double delta_error) {
         namespace fs = std::filesystem;
 
+        barlog::info(std::format("Parsing TDM by wildcard {}, with timedelta {} and error {}",
+                                wildcard, delta, delta_error));
+
+        if (delta <= 0 || delta_error <= 0) {
+            barlog::warn("Delta and/or timedelta less than 0, are you sure?");
+        }
         // Extract the directory and the regex pattern directly from the input path.
         fs::path path(wildcard);
         fs::path directory = path.parent_path();
@@ -180,6 +197,7 @@ namespace interpret {
         std::vector<TDMData> parsed;
 
         if (!fs::exists(directory) || !fs::is_directory(directory)) {
+            barlog::error(std::format("TDM file does not exist: {}", directory.string()));
             throw std::runtime_error(
                 "Invalid directory: " + directory.string());
         }
@@ -197,6 +215,7 @@ namespace interpret {
         }
 
         if (parsed.empty()) {
+            barlog::error(std::format("No TDM files were matched by wildcard {}", wildcard));
             throw std::runtime_error(
                 "No files matched the wildcard: " + wildcard);
         }
@@ -234,6 +253,8 @@ namespace interpret {
         }
 
         mergedData.observations = good_obs;
+
+        barlog::info("Succesfully parsed TDM file with wildcard.");
         return mergedData;
     }
 } // namespace interpret

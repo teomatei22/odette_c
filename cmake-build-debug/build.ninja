@@ -105,6 +105,20 @@ build CMakeFiles/gauss_tle_tests.dir/src/propagator.cpp.obj: CXX_COMPILER__gauss
   OBJECT_DIR = CMakeFiles\gauss_tle_tests.dir
   OBJECT_FILE_DIR = CMakeFiles\gauss_tle_tests.dir\src
 
+build CMakeFiles/gauss_tle_tests.dir/test_odette.cpp.obj: CXX_COMPILER__gauss_tle_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/test_odette.cpp || cmake_object_order_depends_target_gauss_tle_tests
+  DEP_FILE = CMakeFiles\gauss_tle_tests.dir\test_odette.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\gauss_tle_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\gauss_tle_tests.dir
+
+build CMakeFiles/gauss_tle_tests.dir/src/logging.cpp.obj: CXX_COMPILER__gauss_tle_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/logging.cpp || cmake_object_order_depends_target_gauss_tle_tests
+  DEP_FILE = CMakeFiles\gauss_tle_tests.dir\src\logging.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\gauss_tle_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\gauss_tle_tests.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target gauss_tle_tests
@@ -113,7 +127,7 @@ build CMakeFiles/gauss_tle_tests.dir/src/propagator.cpp.obj: CXX_COMPILER__gauss
 #############################################
 # Link the executable gauss_tle_tests.exe
 
-build gauss_tle_tests.exe: CXX_EXECUTABLE_LINKER__gauss_tle_tests_Debug CMakeFiles/gauss_tle_tests.dir/gauss_tle_test.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/TLE.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/SGP4.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/interpret.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/RADec.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/TDMParser.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/orbmath.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/propagator.cpp.obj
+build gauss_tle_tests.exe: CXX_EXECUTABLE_LINKER__gauss_tle_tests_Debug CMakeFiles/gauss_tle_tests.dir/gauss_tle_test.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/TLE.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/SGP4.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/interpret.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/RADec.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/TDMParser.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/orbmath.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/propagator.cpp.obj CMakeFiles/gauss_tle_tests.dir/test_odette.cpp.obj CMakeFiles/gauss_tle_tests.dir/src/logging.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-Bstatic  -lraylib  -lraylibdll  -Wl,-Bdynamic  -lraylib  -lwinmm  -lgdi32  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Users/TEO/CLionProjects/odette_c/lib
@@ -189,6 +203,13 @@ build CMakeFiles/odette.dir/src/propagator.cpp.obj: CXX_COMPILER__odette_unscann
   OBJECT_DIR = CMakeFiles\odette.dir
   OBJECT_FILE_DIR = CMakeFiles\odette.dir\src
 
+build CMakeFiles/odette.dir/src/logging.cpp.obj: CXX_COMPILER__odette_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/logging.cpp || cmake_object_order_depends_target_odette
+  DEP_FILE = CMakeFiles\odette.dir\src\logging.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\odette.dir
+  OBJECT_FILE_DIR = CMakeFiles\odette.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target odette
@@ -197,7 +218,7 @@ build CMakeFiles/odette.dir/src/propagator.cpp.obj: CXX_COMPILER__odette_unscann
 #############################################
 # Link the executable odette.exe
 
-build odette.exe: CXX_EXECUTABLE_LINKER__odette_Debug CMakeFiles/odette.dir/main.cpp.obj CMakeFiles/odette.dir/src/TLE.cpp.obj CMakeFiles/odette.dir/src/SGP4.cpp.obj CMakeFiles/odette.dir/src/interpret.cpp.obj CMakeFiles/odette.dir/src/RADec.cpp.obj CMakeFiles/odette.dir/src/TDMParser.cpp.obj CMakeFiles/odette.dir/src/orbmath.cpp.obj CMakeFiles/odette.dir/src/propagator.cpp.obj
+build odette.exe: CXX_EXECUTABLE_LINKER__odette_Debug CMakeFiles/odette.dir/main.cpp.obj CMakeFiles/odette.dir/src/TLE.cpp.obj CMakeFiles/odette.dir/src/SGP4.cpp.obj CMakeFiles/odette.dir/src/interpret.cpp.obj CMakeFiles/odette.dir/src/RADec.cpp.obj CMakeFiles/odette.dir/src/TDMParser.cpp.obj CMakeFiles/odette.dir/src/orbmath.cpp.obj CMakeFiles/odette.dir/src/propagator.cpp.obj CMakeFiles/odette.dir/src/logging.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-Bstatic  -lraylib  -lraylibdll  -Wl,-Bdynamic  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Users/TEO/CLionProjects/odette_c/lib
@@ -207,6 +228,97 @@ build odette.exe: CXX_EXECUTABLE_LINKER__odette_Debug CMakeFiles/odette.dir/main
   TARGET_FILE = odette.exe
   TARGET_IMPLIB = libodette.dll.a
   TARGET_PDB = odette.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unit_tests
+
+
+#############################################
+# Order-only phony target for unit_tests
+
+build cmake_object_order_depends_target_unit_tests: phony || .
+
+build CMakeFiles/unit_tests.dir/test_odette.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/test_odette.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\test_odette.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir
+
+build CMakeFiles/unit_tests.dir/src/TLE.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/TLE.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\TLE.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+build CMakeFiles/unit_tests.dir/src/SGP4.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/SGP4.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\SGP4.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+build CMakeFiles/unit_tests.dir/src/interpret.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/interpret.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\interpret.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+build CMakeFiles/unit_tests.dir/src/RADec.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/RADec.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\RADec.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+build CMakeFiles/unit_tests.dir/src/TDMParser.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/TDMParser.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\TDMParser.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+build CMakeFiles/unit_tests.dir/src/orbmath.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/orbmath.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\orbmath.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+build CMakeFiles/unit_tests.dir/src/propagator.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/propagator.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\propagator.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+build CMakeFiles/unit_tests.dir/src/logging.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug C$:/Users/TEO/CLionProjects/odette_c/src/logging.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = CMakeFiles\unit_tests.dir\src\logging.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_tests.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unit_tests
+
+
+#############################################
+# Link the executable unit_tests.exe
+
+build unit_tests.exe: CXX_EXECUTABLE_LINKER__unit_tests_Debug CMakeFiles/unit_tests.dir/test_odette.cpp.obj CMakeFiles/unit_tests.dir/src/TLE.cpp.obj CMakeFiles/unit_tests.dir/src/SGP4.cpp.obj CMakeFiles/unit_tests.dir/src/interpret.cpp.obj CMakeFiles/unit_tests.dir/src/RADec.cpp.obj CMakeFiles/unit_tests.dir/src/TDMParser.cpp.obj CMakeFiles/unit_tests.dir/src/orbmath.cpp.obj CMakeFiles/unit_tests.dir/src/propagator.cpp.obj CMakeFiles/unit_tests.dir/src/logging.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-Bstatic  -lraylib  -lraylibdll  -Wl,-Bdynamic  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LC:/Users/TEO/CLionProjects/odette_c/lib
+  OBJECT_DIR = CMakeFiles\unit_tests.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = unit_tests.exe
+  TARGET_IMPLIB = libunit_tests.dll.a
+  TARGET_PDB = unit_tests.exe.dbg
 
 
 #############################################
@@ -238,6 +350,8 @@ build gauss_tle_tests: phony gauss_tle_tests.exe
 
 build odette: phony odette.exe
 
+build unit_tests: phony unit_tests.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -246,7 +360,7 @@ build odette: phony odette.exe
 #############################################
 # Folder: C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug
 
-build all: phony gauss_tle_tests.exe odette.exe
+build all: phony gauss_tle_tests.exe odette.exe unit_tests.exe
 
 # =============================================================================
 # Built-in targets

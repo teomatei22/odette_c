@@ -1,4 +1,5 @@
 C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug/CMakeFiles/gauss_tle_tests.dir
 C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug/CMakeFiles/odette.dir
+C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug/CMakeFiles/unit_tests.dir
 C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

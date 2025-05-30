@@ -1,6 +1,11 @@
 #include "propagator.h"
 
+#include "logging.h"
+
 void propagate::Propagator::compute() {
+
+    barlog::info("Propagating orbit!");
+
     ephem.positions.push_back(this->r);
     ephem.velocities.push_back(this->v);
     ephem.epochs.push_back(this->epochs[0]);
