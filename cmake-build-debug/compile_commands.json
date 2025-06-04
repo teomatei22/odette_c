@@ -1,169 +1,169 @@
 [
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\gauss_tle_test.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\gauss_tle_test.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\gauss_tle_test.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\gauss_tle_test.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\gauss_tle_test.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\gauss_tle_test.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\TLE.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\TLE.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\TLE.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\SGP4.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\SGP4.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\SGP4.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\interpret.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\interpret.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\interpret.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\RADec.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\RADec.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\RADec.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\TDMParser.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\TDMParser.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\TDMParser.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\orbmath.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\orbmath.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\orbmath.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\propagator.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\propagator.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\propagator.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\test_odette.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\test_odette.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\test_odette.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\test_odette.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\test_odette.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\test_odette.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\logging.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\gauss_tle_tests.dir\\src\\logging.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
   "output": "CMakeFiles\\gauss_tle_tests.dir\\src\\logging.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\main.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\main.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\main.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\main.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\main.cpp",
   "output": "CMakeFiles\\odette.dir\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\TLE.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\TLE.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\TLE.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\SGP4.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\SGP4.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\SGP4.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\interpret.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\interpret.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\interpret.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\RADec.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\RADec.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\RADec.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\TDMParser.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\TDMParser.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\TDMParser.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\orbmath.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\orbmath.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\orbmath.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\propagator.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\propagator.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\propagator.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\logging.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\odette.dir\\src\\logging.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
   "output": "CMakeFiles\\odette.dir\\src\\logging.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\test_odette.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\test_odette.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\test_odette.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\test_odette.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\test_odette.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\test_odette.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\TLE.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\TLE.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TLE.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\TLE.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\SGP4.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\SGP4.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\SGP4.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\SGP4.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\interpret.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\interpret.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\interpret.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\interpret.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\RADec.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\RADec.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\RADec.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\RADec.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\TDMParser.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\TDMParser.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\TDMParser.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\TDMParser.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\orbmath.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\orbmath.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\orbmath.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\orbmath.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\propagator.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\propagator.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\propagator.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\propagator.cpp.obj"
 },
 {
   "directory": "C:/Users/TEO/CLionProjects/odette_c/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\logging.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
+  "command": "C:\\Users\\TEO\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/TEO/CLionProjects/odette_c/include -IC:/Users/TEO/CLionProjects/odette_c/Eigen -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\unit_tests.dir\\src\\logging.cpp.obj -c C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
   "file": "C:\\Users\\TEO\\CLionProjects\\odette_c\\src\\logging.cpp",
   "output": "CMakeFiles\\unit_tests.dir\\src\\logging.cpp.obj"
 }

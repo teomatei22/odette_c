@@ -117,16 +117,16 @@ void test_constants() {
 int main() {
 
     barlog::initialize_log();
-    // test_radec_solution();
-    // test_tle_propagation();
-    // test_rk45_propagation();
-    // test_orbital_elements_consistency();
-    // test_perturbation_effects();
-    //
-    // test_angle_conversions();
-    // test_geodetic_to_ecef();
-    // test_kepler_acceleration();
-    // test_constants();
+    test_radec_solution();
+    test_tle_propagation();
+    test_rk45_propagation();
+    test_orbital_elements_consistency();
+    test_perturbation_effects();
+
+    test_angle_conversions();
+    test_geodetic_to_ecef();
+    test_kepler_acceleration();
+    test_constants();
 
     std::cout << "\n All tests passed successfully.\n";
     return 0;

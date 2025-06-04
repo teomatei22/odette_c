@@ -70,8 +70,10 @@ using json = nlohmann::json;
 "        Displays this help message.\n" \
 "\n" \
 "Examples:\n" \
-"    odette --method sgp4 --tle-json tle.txt --output orbit.csv --format-out csv --period 90 --points 300\n" \
-"    odette --method gauss --tdm ./data/Jason/20240318_16002A_A^.tdm --output orbit.json --format-out json --period 120 --points 400 --time-delta 100 --time-delta-error 30\n" \
+"    odette --method sgp4 --tle-json tle_jason3.json --output orbit_sgp4.json --format-out json --period 180 --points 500\n" \
+"    odette --method sgp4 --tle-json tle_sentinel3b.json --output orbit_sentinel.csv --format-out csv --period 150 --points 400\n" \
+"    odette --method gauss --tdm \"./data/Jason/20240318_16002A_A^.tdm\" --output orbit_gauss.json --format-out json --period 120 --points 400 --time-delta 100 --time-delta-error 30\n" \
+"    odette --method gauss --tdm \"./data/Jason/20240318_16002A_B^.tdm\" --output orbit_b.json --format-out json --period 60 --points 150 --time-delta 80 --time-delta-error 10\n" \
 "\n"
 
 void write_csv(const std::string& path, const std::vector<double>& epochs,

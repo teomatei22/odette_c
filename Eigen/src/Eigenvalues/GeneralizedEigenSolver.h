@@ -38,8 +38,8 @@ namespace Eigen {
   * matrices are real. Moreover, the generalized eigenvalue might be infinite if the matrix B is
   * singular. To workaround this difficulty, the eigenvalues are provided as a pair of complex \f$ \alpha \f$
   * and real \f$ \beta \f$ such that: \f$ \lambda_i = \alpha_i / \beta_i \f$. If \f$ \beta_i \f$ is (nearly) zero,
-  * then one can consider the well defined left eigenvalue \f$ \mu = \beta_i / \alpha_i\f$ such that:
-  * \f$ \mu_i A v_i = B v_i \f$, or even \f$ \mu_i u_i^T A  = u_i^T B \f$ where \f$ u_i \f$ is
+  * then one can consider the well defined left eigenvalue \f$ mu = \beta_i / \alpha_i\f$ such that:
+  * \f$ mu_i A v_i = B v_i \f$, or even \f$ mu_i u_i^T A  = u_i^T B \f$ where \f$ u_i \f$ is
   * called the left eigenvector.
   *
   * Call the function compute() to compute the generalized eigenvalues and eigenvectors of

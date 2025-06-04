@@ -18,6 +18,19 @@
 
 
 namespace interpret {
+
+    /**
+     * @brief Parse an ISO 8601 formatted time string into a Julian date (with fraction).
+     *
+     * Given a string of the form "YYYY-MM-DDThh:mm:ss", this function extracts the
+     * calendar date and time components, converts them to a Julian date (JD) and
+     * fractional day component using the jday() utility, and returns their sum.
+     *
+     * @param timeStr The time string in ISO 8601 format ("YYYY-MM-DDThh:mm:ss").
+     * @return double Julian date plus fraction (days since J2000).
+     * @note Logs the input time string via barlog::info.
+     * @throws None. Returns 0.0 if parsing fails or format is invalid.
+     */
     static double parse_time_string(const std::string &timeStr) {
         barlog::info(std::format("Parsed time string: {}", timeStr));
 
@@ -44,13 +57,30 @@ namespace interpret {
     }
 
 
+    /**
+     * @brief Parse a single TDM (Tracking Data Message) file and extract observations.
+     *
+     * Opens the specified TDM file, reads the metadata between META_START and META_STOP
+     * markers, and reads observation lines between DATA_START and DATA_STOP. Metadata
+     * fields such as TIME_SYSTEM, START_TIME, STOP_TIME, and REFERENCE_FRAME are stored
+     * in the returned TDMData.meta structure. Station geodetic coordinates (longitude,
+     * latitude, altitude) are parsed from COMMENT lines and converted to an ECEF position.
+     * Observation lines consist of timestamp, right ascension (degrees), and declination
+     * (degrees). Each pair of lines yields one Observation entry with epoch (Julian date),
+     * ra (radians), dec (radians), and stationECEF (ECEF position in kilometers). All
+     * observations are stored in TDMData.observations.
+     *
+     * @param filename Filesystem path to the TDM file to parse.
+     * @return TDMData A struct containing parsed metadata and a vector of Observation entries.
+     * @throws std::runtime_error If the file cannot be opened.
+     * @note Logs start and end of parsing via barlog::info, and errors via barlog::error.
+     */
     TDMData parse_tdm(const std::string &filename) {
         barlog::info(std::format("Parsing TDM file at path: {}", filename));
 
         TDMData data;
         std::ifstream infile(filename);
         if (!infile) {
-
             barlog::error(std::format("Failed to open file {}", filename));
             throw std::runtime_error("Could not open file: " + filename);
         }
@@ -136,14 +166,14 @@ namespace interpret {
             }
         }
 
-        // Compute station ECI from SITE-TRACK
+        // Compute station ECI position from geodetic META fields
         Eigen::Vector3d siteECEF = orbmath::geodetic_to_ecef(
             data.meta.station_latitude,
             data.meta.station_longitude,
             data.meta.station_altitude
         );
 
-        // Parse observation data
+        // Parse observation data lines two at a time: one for RA, next for Dec
         for (size_t i = 0; i + 1 < dataLines.size(); i += 2) {
             std::string line1 = dataLines[i];
             std::string line2 = dataLines[i + 1];
@@ -180,6 +210,26 @@ namespace interpret {
         return data;
     }
 
+    /**
+     * @brief Parse multiple TDM files matching a wildcard pattern and filter observations by time interval.
+     *
+     * Given a filesystem wildcard (e.g., "/path/to/dir/*.tdm"), this function:
+     *   1. Extracts the directory and filename pattern from the wildcard string.
+     *   2. Iterates over all regular files in that directory whose names contain the pattern prefix.
+     *   3. Invokes parse_tdm() on each matching file to collect TDMData objects.
+     *   4. Merges all observations into a single TDMData, sorting them by epoch.
+     *   5. Filters the merged observations to include only those where the time difference
+     *      from the previous selected observation is within [delta - delta_error, delta + delta_error] seconds.
+     *   6. Returns the filtered, merged TDMData with metadata inherited from the first file.
+     *
+     * @param wildcard A wildcard string specifying directory and filename pattern (e.g., "/path/to/*.tdm").
+     * @param delta Desired time separation between observations, in seconds.
+     * @param delta_error Allowed tolerance for time separation, in seconds.
+     * @return TDMData A struct containing the merged metadata and filtered observations.
+     * @throws std::runtime_error If the directory portion does not exist or is not a directory,
+     *                            or if no files match the wildcard.
+     * @note Logs warnings if delta or delta_error are non-positive, and logs errors for I/O issues.
+     */
     TDMData parse_tdm_w(const std::string &wildcard, double delta,
                        double delta_error) {
         namespace fs = std::filesystem;
@@ -190,7 +240,7 @@ namespace interpret {
         if (delta <= 0 || delta_error <= 0) {
             barlog::warn("Delta and/or timedelta less than 0, are you sure?");
         }
-        // Extract the directory and the regex pattern directly from the input path.
+        // Extract directory and pattern from wildcard
         fs::path path(wildcard);
         fs::path directory = path.parent_path();
         std::string pattern = path.filename().string();
@@ -202,7 +252,7 @@ namespace interpret {
                 "Invalid directory: " + directory.string());
         }
 
-        // Iterate over each file in the directory.
+        // Iterate over each file in the directory
         for (const auto &entry: fs::directory_iterator(directory)) {
             if (entry.is_regular_file()) {
                 const auto &filename = entry.path().filename().string();
@@ -220,17 +270,17 @@ namespace interpret {
                 "No files matched the wildcard: " + wildcard);
         }
 
-        // Merge the parsed TDMData objects.
+        // Merge all parsed TDMData objects
         TDMData mergedData;
         for (const auto &data: parsed) {
             mergedData.observations.insert(mergedData.observations.end(),
                                            data.observations.begin(),
                                            data.observations.end());
         }
-        // Merge meta-data as needed. Here we simply take the meta from the first parsed data.
+        // Inherit metadata from the first parsed file
         mergedData.meta = parsed[0].meta;
 
-        // Sort the observations by epoch.
+        // Sort observations by ascending epoch
         std::sort(mergedData.observations.begin(),
                   mergedData.observations.end(),
                   [](const Observation &a, const Observation &b) {
@@ -241,10 +291,9 @@ namespace interpret {
         std::vector<Observation> good_obs;
         good_obs.push_back(mergedData.observations[0]);
 
-        // Filter to be at least delta - delta_error and at most delta + delta_error apart
+        // Filter observations: keep only those separated by ~delta ±delta_error seconds
         for (std::size_t i = 1; i < mergedData.observations.size(); i++) {
-            auto dt = mergedData.observations[i].epoch - mergedData.observations
-                      [p].epoch;
+            auto dt = mergedData.observations[i].epoch - mergedData.observations[p].epoch;
             dt *= orbmath::SECONDS_PER_DAY;
             if (delta - delta_error < dt && dt < delta + delta_error) {
                 p = i;
@@ -257,4 +306,5 @@ namespace interpret {
         barlog::info("Succesfully parsed TDM file with wildcard.");
         return mergedData;
     }
+
 } // namespace interpret
