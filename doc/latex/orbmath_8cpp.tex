@@ -1,0 +1,38 @@
+\hypertarget{orbmath_8cpp}{}\doxysection{orbmath.\+cpp File Reference}
+\label{orbmath_8cpp}\index{orbmath.cpp@{orbmath.cpp}}
+{\ttfamily \#include $<$Dense$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include \char`\"{}orbmath.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}logging.\+h\char`\"{}}\newline
+Include dependency graph for orbmath.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{orbmath_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceorbmath}{orbmath}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{namespaceorbmath_af06923e244e6c150643df5141414fa1f}{orbmath\+::deg2rad}} (double deg)
+\begin{DoxyCompactList}\small\item\em Convert degrees to radians. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceorbmath_a2f8c54913dd4b4fb2afd85e7efc81ed4}{orbmath\+::arcsec2rad}} (double arcsec)
+\begin{DoxyCompactList}\small\item\em Convert arcseconds to radians. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceorbmath_ae0c4fc775e9c9af080dc26f84f97e86d}{orbmath\+::wrap\+\_\+2pi}} (double x)
+\begin{DoxyCompactList}\small\item\em Wrap an angle to the range \mbox{[}0, 2pi). \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceorbmath_ac7add9282fba7cf6a46bbacab9b04044}{orbmath\+::clamp}} (double x, double low=-\/1.\+0, double high=1.\+0)
+\begin{DoxyCompactList}\small\item\em Clamp a value to a specified range. \end{DoxyCompactList}\item 
+Eigen\+::\+Vector3d \mbox{\hyperlink{namespaceorbmath_a243654c8f86c02fca206bf01d1661466}{orbmath\+::geodetic\+\_\+to\+\_\+ecef}} (double lat\+Deg, double lon\+Deg, double alt\+\_\+m)
+\begin{DoxyCompactList}\small\item\em Convert geodetic coordinates to Earth-\/\+Centered Earth-\/\+Fixed (ECEF). \end{DoxyCompactList}\item 
+Orbital\+Elements \mbox{\hyperlink{namespaceorbmath_a149791e4417a770fe35ef17a9da5f14a}{orbmath\+::compute\+\_\+orbital\+\_\+elements}} (const Eigen\+::\+Vector3d \&r, const Eigen\+::\+Vector3d \&v)
+\begin{DoxyCompactList}\small\item\em Compute classical orbital elements from position and velocity vectors. \end{DoxyCompactList}\item 
+Eigen\+::\+Vector3d \mbox{\hyperlink{namespaceorbmath_acc13468df2a7f6875690f655bb7af1b6}{orbmath\+::kepler}} (const Eigen\+::\+Vector3d \&r, double dt)
+\begin{DoxyCompactList}\small\item\em Compute the two-\/body (Keplerian) acceleration. \end{DoxyCompactList}\end{DoxyCompactItemize}

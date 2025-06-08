@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['earth_20oblateness_0',['1. J2 Earth Oblateness',['../d0/dde/perturbations.html#j2-perturbation',1,'']]],
+  ['earth_20orbit_20geo_1',['Geostationary Earth Orbit (GEO)',['../d0/dde/perturbations.html#autotoc_md149',1,'']]],
+  ['earth_20orbit_20leo_2',['Low Earth Orbit (LEO)',['../d0/dde/perturbations.html#autotoc_md148',1,'']]],
+  ['educational_20use_3',['Educational Use',['../db/d8b/md_docs_2mainpage.html#autotoc_md105',1,'']]],
+  ['effects_4',['Effects',['../d0/dde/perturbations.html#autotoc_md140',1,'Altitude Effects'],['../d0/dde/perturbations.html#autotoc_md142',1,'Perturbation Interaction Effects'],['../d0/dde/perturbations.html#autotoc_md144',1,'Resonance Effects'],['../d0/dde/perturbations.html#autotoc_md119',1,'Typical Effects'],['../d0/dde/perturbations.html#autotoc_md126',1,'Typical Effects'],['../d0/dde/perturbations.html#autotoc_md132',1,'Typical Effects'],['../d0/dde/perturbations.html#autotoc_md141',1,'Typical Effects']]],
+  ['efficiency_5',['3. Computational Efficiency',['../d0/dde/perturbations.html#autotoc_md162',1,'']]],
+  ['elements_20dictionary_6',['Orbital Elements Dictionary',['../d2/d89/api_reference.html#autotoc_md32',1,'']]],
+  ['elliptical_20orbit_20heo_7',['Highly Elliptical Orbit (HEO)',['../d0/dde/perturbations.html#autotoc_md150',1,'']]],
+  ['enter_5ftle_5fmanually_8',['enter_tle_manually',['../d9/d88/classodette__cli_1_1_o_d_e_t_t_e_interface_a6bda8b173138325fbaa8cd3fa759c144.html#a6bda8b173138325fbaa8cd3fa759c144',1,'odette_cli::ODETTEInterface']]],
+  ['error_20analysis_20and_20uncertainty_9',['Error Analysis and Uncertainty',['../d0/dde/perturbations.html#autotoc_md157',1,'']]],
+  ['error_20handling_10',['Error Handling',['../d2/d89/api_reference.html#autotoc_md41',1,'']]],
+  ['error_20response_20format_20javaguibridge_11',['Error Response Format (JavaGUIBridge)',['../d2/d89/api_reference.html#autotoc_md43',1,'']]],
+  ['estimation_12',['2. Parameter Estimation',['../d0/dde/perturbations.html#autotoc_md161',1,'']]],
+  ['example_20usage_13',['Example Usage',['../d0/dde/perturbations.html#autotoc_md120',1,'']]],
+  ['example_3a_20cubesat_20with_20large_20area_20to_20mass_20ratio_14',['Example: CubeSat with large area-to-mass ratio',['..//Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings_Python-interface-code/docs/examples/README.md#autotoc_md52',1,'']]],
+  ['examples_15',['Examples',['..//Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings_Python-interface-code/docs/examples/README.md#autotoc_md49',1,'Advanced Examples'],['..//Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings_Python-interface-code/docs/examples/README.md#autotoc_md46',1,'Basic Examples'],['../d1/d66/getting_started.html#autotoc_md68',1,'Basic Usage Examples'],['..//Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings_Python-interface-code/docs/examples/README.md#autotoc_md48',1,'Intermediate Examples']]],
+  ['examples_20collection_16',['Examples Collection',['../dc/dae/md__r_e_a_d_m_e___d_o_c_u_m_e_n_t_a_t_i_o_n.html#autotoc_md184',1,'']]],
+  ['examples_20gallery_17',['🌟 Examples Gallery',['../db/d8b/md_docs_2mainpage.html#autotoc_md110',1,'']]],
+  ['exception_20types_18',['Exception Types',['../d2/d89/api_reference.html#autotoc_md42',1,'']]],
+  ['execute_5fcommand_19',['execute_command',['../d5/d03/classorbit__toolkit_1_1_java_g_u_i_bridge_a6c4cbe7bbea9f7c65d0f66d6a6f6aadc.html#a6c4cbe7bbea9f7c65d0f66d6a6f6aadc',1,'orbit_toolkit.JavaGUIBridge.execute_command()'],['../d2/deb/classorbit__toolkit__module_1_1_java_g_u_i_bridge_ae2d8b26ee146e4d4d49ceff3b4a5dac3.html#ae2d8b26ee146e4d4d49ceff3b4a5dac3',1,'orbit_toolkit_module.JavaGUIBridge.execute_command()'],['../d2/d89/api_reference.html#autotoc_md25',1,'execute_command()']]],
+  ['executing_20commands_20from_20java_20',['Executing Commands from Java',['../d1/d66/getting_started.html#autotoc_md76',1,'']]],
+  ['export_5fresults_5fcsv_21',['export_results_csv',['../d9/d88/classodette__cli_1_1_o_d_e_t_t_e_interface_ad3525573aca437aa8ea0cd343961d9dc.html#ad3525573aca437aa8ea0cd343961d9dc',1,'odette_cli::ODETTEInterface']]],
+  ['extending_20documentation_22',['Extending Documentation',['../dc/dae/md__r_e_a_d_m_e___d_o_c_u_m_e_n_t_a_t_i_o_n.html#autotoc_md188',1,'']]],
+  ['extension_23',['2. Build the C++ Extension',['../d1/d66/getting_started.html#autotoc_md64',1,'']]]
+];

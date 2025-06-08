@@ -1,0 +1,107 @@
+\hypertarget{namespacebarlog}{}\doxysection{barlog Namespace Reference}
+\label{namespacebarlog}\index{barlog@{barlog}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ofstream \mbox{\hyperlink{namespacebarlog_a60d85ae8d42b4f24496b6b096edf6fa4}{write}} (\char`\"{}default\+\_\+log.\+log\char`\"{})
+\begin{DoxyCompactList}\small\item\em Output file stream used for logging messages. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespacebarlog_a6d7d42ea3ba5f244857a9fba128aefb4}{get\+\_\+date\+\_\+now}} ()
+\begin{DoxyCompactList}\small\item\em Retrieve the current date and time as a formatted string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_ac0600426e2c62b5626449c3f5aaa2b08}{initialize\+\_\+log}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the log file with a timestamped filename. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_a9323075eab15efbb6fc106711987ebd8}{info}} (const std\+::string \&msg)
+\begin{DoxyCompactList}\small\item\em Log an informational message. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_a202b0a78488d0f7c6002e33effc8ec6b}{warn}} (const std\+::string \&msg)
+\begin{DoxyCompactList}\small\item\em Log a warning message. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_ae661bcddacabaa78463425e5b88bcaeb}{error}} (const std\+::string \&msg)
+\begin{DoxyCompactList}\small\item\em Log an error message. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacebarlog_ae661bcddacabaa78463425e5b88bcaeb}\label{namespacebarlog_ae661bcddacabaa78463425e5b88bcaeb}} 
+\index{barlog@{barlog}!error@{error}}
+\index{error@{error}!barlog@{barlog}}
+\doxysubsubsection{\texorpdfstring{error()}{error()}}
+{\footnotesize\ttfamily void barlog\+::error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{msg }\end{DoxyParamCaption})}
+
+
+
+Log an error message. 
+
+Prepends the current date-\/time and \char`\"{}\mbox{[}\+ERROR\mbox{]}\char`\"{} level tag before writing the provided message to the log file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & The error message to log. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacebarlog_a6d7d42ea3ba5f244857a9fba128aefb4}\label{namespacebarlog_a6d7d42ea3ba5f244857a9fba128aefb4}} 
+\index{barlog@{barlog}!get\_date\_now@{get\_date\_now}}
+\index{get\_date\_now@{get\_date\_now}!barlog@{barlog}}
+\doxysubsubsection{\texorpdfstring{get\_date\_now()}{get\_date\_now()}}
+{\footnotesize\ttfamily std\+::string barlog\+::get\+\_\+date\+\_\+now (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieve the current date and time as a formatted string. 
+
+Formats the current local time into the pattern \char`\"{}\+DD-\/\+MM-\/\+YYYY-\/\+HH-\/\+MM-\/\+SS\char`\"{}.
+
+\begin{DoxyReturn}{Returns}
+std\+::string The formatted date-\/time string. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespacebarlog_a9323075eab15efbb6fc106711987ebd8}\label{namespacebarlog_a9323075eab15efbb6fc106711987ebd8}} 
+\index{barlog@{barlog}!info@{info}}
+\index{info@{info}!barlog@{barlog}}
+\doxysubsubsection{\texorpdfstring{info()}{info()}}
+{\footnotesize\ttfamily void barlog\+::info (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{msg }\end{DoxyParamCaption})}
+
+
+
+Log an informational message. 
+
+Prepends the current date-\/time and \char`\"{}\mbox{[}\+INFO\mbox{]}\char`\"{} level tag before writing the provided message to the log file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & The informational message to log. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacebarlog_ac0600426e2c62b5626449c3f5aaa2b08}\label{namespacebarlog_ac0600426e2c62b5626449c3f5aaa2b08}} 
+\index{barlog@{barlog}!initialize\_log@{initialize\_log}}
+\index{initialize\_log@{initialize\_log}!barlog@{barlog}}
+\doxysubsubsection{\texorpdfstring{initialize\_log()}{initialize\_log()}}
+{\footnotesize\ttfamily void barlog\+::initialize\+\_\+log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialize the log file with a timestamped filename. 
+
+Closes the default log file (if open) and opens a new file named \char`\"{}$<$current\+\_\+date\+\_\+time$>$.\+log\char`\"{} to capture subsequent log entries. \mbox{\Hypertarget{namespacebarlog_a202b0a78488d0f7c6002e33effc8ec6b}\label{namespacebarlog_a202b0a78488d0f7c6002e33effc8ec6b}} 
+\index{barlog@{barlog}!warn@{warn}}
+\index{warn@{warn}!barlog@{barlog}}
+\doxysubsubsection{\texorpdfstring{warn()}{warn()}}
+{\footnotesize\ttfamily void barlog\+::warn (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{msg }\end{DoxyParamCaption})}
+
+
+
+Log a warning message. 
+
+Prepends the current date-\/time and \char`\"{}\mbox{[}\+WARN\mbox{]}\char`\"{} level tag before writing the provided message to the log file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & The warning message to log. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacebarlog_a60d85ae8d42b4f24496b6b096edf6fa4}\label{namespacebarlog_a60d85ae8d42b4f24496b6b096edf6fa4}} 
+\index{barlog@{barlog}!write@{write}}
+\index{write@{write}!barlog@{barlog}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily std\+::ofstream barlog\+::write (\begin{DoxyParamCaption}\item[{\char`\"{}default\+\_\+log.\+log\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+
+
+Output file stream used for logging messages. 
+
+By default, logs are written to \char`\"{}default\+\_\+log.\+log\char`\"{} until \mbox{\hyperlink{namespacebarlog_ac0600426e2c62b5626449c3f5aaa2b08}{initialize\+\_\+log()}} is called to create a timestamped log file. 

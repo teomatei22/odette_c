@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['radiation_20pressure_0',['3. Solar Radiation Pressure',['../d0/dde/perturbations.html#solar-radiation-pressure',1,'']]],
+  ['ratio_1',['Example: CubeSat with large area-to-mass ratio',['..//Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings_Python-interface-code/docs/examples/README.md#autotoc_md52',1,'']]],
+  ['reading_2',['References and Further Reading',['../d0/dde/perturbations.html#autotoc_md164',1,'']]],
+  ['reference_3',['Reference',['../d2/d89/api_reference.html',1,'API Reference'],['..//Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings_Python-interface-code/docs/examples/README.md#autotoc_md45',1,'Quick Reference']]],
+  ['reference_20models_4',['Validation Against Reference Models',['../d0/dde/perturbations.html#autotoc_md153',1,'']]],
+  ['references_5',['References',['../d0/dde/perturbations.html#autotoc_md165',1,'Fundamental References'],['../d0/dde/perturbations.html#autotoc_md166',1,'Perturbation-Specific References']]],
+  ['references_20and_20further_20reading_6',['References and Further Reading',['../d0/dde/perturbations.html#autotoc_md164',1,'']]],
+  ['related_20resources_7',['🔗 Related Resources',['../db/d8b/md_docs_2mainpage.html#autotoc_md111',1,'']]],
+  ['remove_5fsatellite_8',['remove_satellite',['../d9/d88/classodette__cli_1_1_o_d_e_t_t_e_interface_a5e7972e839aa6b09c9a23f6d888d5c14.html#a5e7972e839aa6b09c9a23f6d888d5c14',1,'odette_cli::ODETTEInterface']]],
+  ['repository_9',['1. Clone the Repository',['../d1/d66/getting_started.html#autotoc_md63',1,'']]],
+  ['required_20python_20packages_10',['Required Python Packages',['../d1/d66/getting_started.html#autotoc_md60',1,'']]],
+  ['required_20software_11',['Required Software',['../dc/dae/md__r_e_a_d_m_e___d_o_c_u_m_e_n_t_a_t_i_o_n.html#autotoc_md173',1,'']]],
+  ['requirements_12',['Requirements',['../d1/d66/getting_started.html#autotoc_md59',1,'System Requirements'],['../db/d8b/md_docs_2mainpage.html#autotoc_md107',1,'System Requirements']]],
+  ['research_20areas_13',['Research Areas',['../db/d8b/md_docs_2mainpage.html#autotoc_md104',1,'']]],
+  ['reset_5fconfiguration_14',['reset_configuration',['../d9/d88/classodette__cli_1_1_o_d_e_t_t_e_interface_a1d485993e4c390ca06890cc07e24d1ba.html#a1d485993e4c390ca06890cc07e24d1ba',1,'odette_cli::ODETTEInterface']]],
+  ['resonance_20effects_15',['Resonance Effects',['../d0/dde/perturbations.html#autotoc_md144',1,'']]],
+  ['resonances_16',['Geosynchronous Resonances',['../d0/dde/perturbations.html#autotoc_md145',1,'']]],
+  ['resources_17',['Resources',['../db/d8b/md_docs_2mainpage.html#autotoc_md111',1,'🔗 Related Resources'],['../dc/dae/md__r_e_a_d_m_e___d_o_c_u_m_e_n_t_a_t_i_o_n.html#autotoc_md203',1,'Useful Resources']]],
+  ['response_20format_20javaguibridge_18',['Response Format JavaGUIBridge',['../d2/d89/api_reference.html#autotoc_md43',1,'Error Response Format (JavaGUIBridge)'],['../d2/d89/api_reference.html#autotoc_md44',1,'Success Response Format (JavaGUIBridge)']]],
+  ['review_20process_19',['Review Process',['../dc/dae/md__r_e_a_d_m_e___d_o_c_u_m_e_n_t_a_t_i_o_n.html#autotoc_md200',1,'']]],
+  ['rk45_20propagation_20',['RK45 Propagation',['../d1/d66/getting_started.html#autotoc_md71',1,'3. High-Precision RK45 Propagation'],['..//Users/evelynschuller/Desktop/Facultate/Master/An 1, sem 2/OOP/Project/ODETTE/Python_interface/Bindings_Python-interface-code/docs/examples/README.md#rk45-propagation',1,'RK45 Propagation']]],
+  ['rk45_5foperations_5fmenu_21',['rk45_operations_menu',['../d9/d88/classodette__cli_1_1_o_d_e_t_t_e_interface_ac216d795358746c34a4302d0b3c5a4d8.html#ac216d795358746c34a4302d0b3c5a4d8',1,'odette_cli::ODETTEInterface']]],
+  ['run_22',['run',['../d9/d88/classodette__cli_1_1_o_d_e_t_t_e_interface_aea7f055d92dc07a55ce7fc723ad22a63.html#aea7f055d92dc07a55ce7fc723ad22a63',1,'odette_cli::ODETTEInterface']]]
+];

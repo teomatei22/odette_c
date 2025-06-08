@@ -1,0 +1,34 @@
+\hypertarget{logging_8cpp}{}\doxysection{logging.\+cpp File Reference}
+\label{logging_8cpp}\index{logging.cpp@{logging.cpp}}
+{\ttfamily \#include \char`\"{}logging.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+Include dependency graph for logging.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{logging_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacebarlog}{barlog}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ofstream \mbox{\hyperlink{namespacebarlog_a60d85ae8d42b4f24496b6b096edf6fa4}{barlog\+::write}} (\char`\"{}default\+\_\+log.\+log\char`\"{})
+\begin{DoxyCompactList}\small\item\em Output file stream used for logging messages. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespacebarlog_a6d7d42ea3ba5f244857a9fba128aefb4}{barlog\+::get\+\_\+date\+\_\+now}} ()
+\begin{DoxyCompactList}\small\item\em Retrieve the current date and time as a formatted string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_ac0600426e2c62b5626449c3f5aaa2b08}{barlog\+::initialize\+\_\+log}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the log file with a timestamped filename. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_a9323075eab15efbb6fc106711987ebd8}{barlog\+::info}} (const std\+::string \&msg)
+\begin{DoxyCompactList}\small\item\em Log an informational message. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_a202b0a78488d0f7c6002e33effc8ec6b}{barlog\+::warn}} (const std\+::string \&msg)
+\begin{DoxyCompactList}\small\item\em Log a warning message. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacebarlog_ae661bcddacabaa78463425e5b88bcaeb}{barlog\+::error}} (const std\+::string \&msg)
+\begin{DoxyCompactList}\small\item\em Log an error message. \end{DoxyCompactList}\end{DoxyCompactItemize}

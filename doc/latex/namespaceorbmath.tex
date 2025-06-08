@@ -1,0 +1,185 @@
+\hypertarget{namespaceorbmath}{}\doxysection{orbmath Namespace Reference}
+\label{namespaceorbmath}\index{orbmath@{orbmath}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{namespaceorbmath_af06923e244e6c150643df5141414fa1f}{deg2rad}} (double deg)
+\begin{DoxyCompactList}\small\item\em Convert degrees to radians. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceorbmath_a2f8c54913dd4b4fb2afd85e7efc81ed4}{arcsec2rad}} (double arcsec)
+\begin{DoxyCompactList}\small\item\em Convert arcseconds to radians. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceorbmath_ae0c4fc775e9c9af080dc26f84f97e86d}{wrap\+\_\+2pi}} (double x)
+\begin{DoxyCompactList}\small\item\em Wrap an angle to the range \mbox{[}0, 2pi). \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceorbmath_ac7add9282fba7cf6a46bbacab9b04044}{clamp}} (double x, double low=-\/1.\+0, double high=1.\+0)
+\begin{DoxyCompactList}\small\item\em Clamp a value to a specified range. \end{DoxyCompactList}\item 
+Eigen\+::\+Vector3d \mbox{\hyperlink{namespaceorbmath_a243654c8f86c02fca206bf01d1661466}{geodetic\+\_\+to\+\_\+ecef}} (double lat\+Deg, double lon\+Deg, double alt\+\_\+m)
+\begin{DoxyCompactList}\small\item\em Convert geodetic coordinates to Earth-\/\+Centered Earth-\/\+Fixed (ECEF). \end{DoxyCompactList}\item 
+Orbital\+Elements \mbox{\hyperlink{namespaceorbmath_a149791e4417a770fe35ef17a9da5f14a}{compute\+\_\+orbital\+\_\+elements}} (const Eigen\+::\+Vector3d \&r, const Eigen\+::\+Vector3d \&v)
+\begin{DoxyCompactList}\small\item\em Compute classical orbital elements from position and velocity vectors. \end{DoxyCompactList}\item 
+Eigen\+::\+Vector3d \mbox{\hyperlink{namespaceorbmath_acc13468df2a7f6875690f655bb7af1b6}{kepler}} (const Eigen\+::\+Vector3d \&r, double dt)
+\begin{DoxyCompactList}\small\item\em Compute the two-\/body (Keplerian) acceleration. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceorbmath_a2f8c54913dd4b4fb2afd85e7efc81ed4}\label{namespaceorbmath_a2f8c54913dd4b4fb2afd85e7efc81ed4}} 
+\index{orbmath@{orbmath}!arcsec2rad@{arcsec2rad}}
+\index{arcsec2rad@{arcsec2rad}!orbmath@{orbmath}}
+\doxysubsubsection{\texorpdfstring{arcsec2rad()}{arcsec2rad()}}
+{\footnotesize\ttfamily double orbmath\+::arcsec2rad (\begin{DoxyParamCaption}\item[{double}]{arcsec }\end{DoxyParamCaption})}
+
+
+
+Convert arcseconds to radians. 
+
+Given an angle in arcseconds, returns the equivalent angle in radians. Note\+: 1 arcsecond = 1/3600 degree.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arcsec} & Angle in arcseconds. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Angle in radians. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceorbmath_ac7add9282fba7cf6a46bbacab9b04044}\label{namespaceorbmath_ac7add9282fba7cf6a46bbacab9b04044}} 
+\index{orbmath@{orbmath}!clamp@{clamp}}
+\index{clamp@{clamp}!orbmath@{orbmath}}
+\doxysubsubsection{\texorpdfstring{clamp()}{clamp()}}
+{\footnotesize\ttfamily double orbmath\+::clamp (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{low = {\ttfamily -\/1.0},  }\item[{double}]{high = {\ttfamily 1.0} }\end{DoxyParamCaption})}
+
+
+
+Clamp a value to a specified range. 
+
+Ensures that x lies within the closed interval \mbox{[}low, high\mbox{]}. This is particularly useful for guarding against domain errors in functions like acos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Value to clamp. \\
+\hline
+{\em low} & Lower bound (default\+: -\/1.\+0). \\
+\hline
+{\em high} & Upper bound (default\+: 1.\+0). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Clamped value in \mbox{[}low, high\mbox{]}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceorbmath_a149791e4417a770fe35ef17a9da5f14a}\label{namespaceorbmath_a149791e4417a770fe35ef17a9da5f14a}} 
+\index{orbmath@{orbmath}!compute\_orbital\_elements@{compute\_orbital\_elements}}
+\index{compute\_orbital\_elements@{compute\_orbital\_elements}!orbmath@{orbmath}}
+\doxysubsubsection{\texorpdfstring{compute\_orbital\_elements()}{compute\_orbital\_elements()}}
+{\footnotesize\ttfamily Orbital\+Elements orbmath\+::compute\+\_\+orbital\+\_\+elements (\begin{DoxyParamCaption}\item[{const Eigen\+::\+Vector3d \&}]{r,  }\item[{const Eigen\+::\+Vector3d \&}]{v }\end{DoxyParamCaption})}
+
+
+
+Compute classical orbital elements from position and velocity vectors. 
+
+Given a position vector r and velocity vector v in an inertial frame (kilometers and kilometers per second), computes the six classical orbital elements\+:
+\begin{DoxyItemize}
+\item Semi-\/major axis (a)
+\item Eccentricity (ecc)
+\item Inclination (incl)
+\item Argument of perigee (omega)
+\item Right ascension of ascending node (Omega)
+\item True anomaly (nu)
+\item Mean anomaly (m)
+\end{DoxyItemize}
+
+The angles in the returned Orbital\+Elements structure are expressed in degrees.
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Position vector \mbox{[}x, y, z\mbox{]} in kilometers. \\
+\hline
+{\em v} & Velocity vector \mbox{[}vx, vy, vz\mbox{]} in kilometers per second. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Orbital\+Elements Struct containing the computed orbital elements. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceorbmath_af06923e244e6c150643df5141414fa1f}\label{namespaceorbmath_af06923e244e6c150643df5141414fa1f}} 
+\index{orbmath@{orbmath}!deg2rad@{deg2rad}}
+\index{deg2rad@{deg2rad}!orbmath@{orbmath}}
+\doxysubsubsection{\texorpdfstring{deg2rad()}{deg2rad()}}
+{\footnotesize\ttfamily double orbmath\+::deg2rad (\begin{DoxyParamCaption}\item[{double}]{deg }\end{DoxyParamCaption})}
+
+
+
+Convert degrees to radians. 
+
+Given an angle in degrees, returns the equivalent angle in radians.
+
+
+\begin{DoxyParams}{Parameters}
+{\em deg} & Angle in degrees. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Angle in radians. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceorbmath_a243654c8f86c02fca206bf01d1661466}\label{namespaceorbmath_a243654c8f86c02fca206bf01d1661466}} 
+\index{orbmath@{orbmath}!geodetic\_to\_ecef@{geodetic\_to\_ecef}}
+\index{geodetic\_to\_ecef@{geodetic\_to\_ecef}!orbmath@{orbmath}}
+\doxysubsubsection{\texorpdfstring{geodetic\_to\_ecef()}{geodetic\_to\_ecef()}}
+{\footnotesize\ttfamily Eigen\+::\+Vector3d orbmath\+::geodetic\+\_\+to\+\_\+ecef (\begin{DoxyParamCaption}\item[{double}]{lat\+Deg,  }\item[{double}]{lon\+Deg,  }\item[{double}]{alt\+\_\+m }\end{DoxyParamCaption})}
+
+
+
+Convert geodetic coordinates to Earth-\/\+Centered Earth-\/\+Fixed (ECEF). 
+
+Uses the WGS-\/84 ellipsoid model to convert latitude, longitude, and altitude into an ECEF position vector in kilometers.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lat\+Deg} & Geodetic latitude in degrees. \\
+\hline
+{\em lon\+Deg} & Geodetic longitude in degrees. \\
+\hline
+{\em alt\+\_\+m} & Altitude above the WGS-\/84 ellipsoid in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Eigen\+::\+Vector3d Position vector \mbox{[}x, y, z\mbox{]} in kilometers (ECEF). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceorbmath_acc13468df2a7f6875690f655bb7af1b6}\label{namespaceorbmath_acc13468df2a7f6875690f655bb7af1b6}} 
+\index{orbmath@{orbmath}!kepler@{kepler}}
+\index{kepler@{kepler}!orbmath@{orbmath}}
+\doxysubsubsection{\texorpdfstring{kepler()}{kepler()}}
+{\footnotesize\ttfamily Eigen\+::\+Vector3d orbmath\+::kepler (\begin{DoxyParamCaption}\item[{const Eigen\+::\+Vector3d \&}]{r,  }\item[{double}]{dt }\end{DoxyParamCaption})}
+
+
+
+Compute the two-\/body (Keplerian) acceleration. 
+
+Given the position vector r (in kilometers) and a time step dt (unused in the simple central‐force model), returns the acceleration vector due to the Earth\textquotesingle{}s gravitational parameter (mu).
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Position vector \mbox{[}x, y, z\mbox{]} in kilometers. \\
+\hline
+{\em dt} & Time step in seconds (not used for constant‐force evaluation). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Eigen\+::\+Vector3d Acceleration vector \mbox{[}ax, ay, az\mbox{]} in km/s². 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceorbmath_ae0c4fc775e9c9af080dc26f84f97e86d}\label{namespaceorbmath_ae0c4fc775e9c9af080dc26f84f97e86d}} 
+\index{orbmath@{orbmath}!wrap\_2pi@{wrap\_2pi}}
+\index{wrap\_2pi@{wrap\_2pi}!orbmath@{orbmath}}
+\doxysubsubsection{\texorpdfstring{wrap\_2pi()}{wrap\_2pi()}}
+{\footnotesize\ttfamily double orbmath\+::wrap\+\_\+2pi (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})}
+
+
+
+Wrap an angle to the range \mbox{[}0, 2pi). 
+
+Reduces any real-\/valued angle x to the principal value in the range \mbox{[}0, 2pi).
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Angle in radians (may be outside \mbox{[}0, 2pi) interval). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Wrapped angle in \mbox{[}0, 2pi). 
+\end{DoxyReturn}
