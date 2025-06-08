@@ -43,7 +43,7 @@
 *              20 apr 07  david vallado
 *                           misc fixes for constants
 *              11 aug 06  david vallado
-*                           chg lyddane choice back to strn3, constants, misc doc
+*                           chg lyddane choice back to strn3, constants, misc docs
 *              15 dec 05  david vallado
 *                           misc fixes
 *              26 jul 05  david vallado
