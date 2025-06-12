@@ -35,7 +35,6 @@ add_executable(gauss_tle_tests gauss_tle_test.cpp
         include/json_fwd.h
         include/frame.h
         include/popl.h
-        test_odette.cpp
         src/logging.cpp
 )
 
