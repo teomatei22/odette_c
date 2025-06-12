@@ -8,7 +8,7 @@
 #include "include/interpret.h"
 #include "include/orbmath.h"
 #include "include/TDMParser.h"
-//#include "raylib.h"
+#include "raylib.h"
 #include "solar_position.h"
 
 bool visual_test_gauss_tdm_benchmark() {
